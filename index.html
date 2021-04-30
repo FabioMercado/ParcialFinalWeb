@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css" >
+</head>
+<body>
+    
+<style>
+.bg{
+
+    background-image: url(img/fondo-personaje-doctor_1270-84.jpg);
+    background-position: center center;
+}
+body{
+    background-color:darkslategray;
+}
+</style>
+
+    <div class="container w-75 bg-primary mt-5 mb-5 rounded shadow">
+        <div class="row align-items-stretch  " >
+            <div class="col-md-6 bg rounded " >
+               
+            </div>
+            <div class="col-md-6 bg-white p-5 rounded-end">
+                <div class="text-end" >
+                    <img src="img/photo_2021-03-20_15-36-01.jpg" height="48" >
+                </div>
+                <h2 class="fw-bold text-center py-5" >Bienvenido</h2>
+                <form id="form">
+                    <div class="mb-4">
+                        <label form="text" class="form-label" >USUARIO</label>
+                        <input type="text" class="form-control" id="usuarioid" name="email" required > 
+                    </div>
+                    <div class="mb-4">
+                        <label form="Password" class="form-label" >CONTRASEÑA</label>
+                        <input type="Password" class="form-control" id="contraseñaid" name="Password" required > 
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-outline-primary" >Iniciar Sesion</button>
+
+                    </div>
+                    
+                </form> <br>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-outline-success" onclick="invitado()" >Iniciar Como invitado</button>
+
+                </div> 
+            </div>
+        </div>
+    </div>
+  
+
+<script src="js/login.js"></script>
+
+</body>
+</html>

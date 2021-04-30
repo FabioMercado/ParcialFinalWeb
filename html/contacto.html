@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+    <body>
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> Menú</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../html/inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/cita.html">Cita/ Ayuda Usuario</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/servicio.html">Servicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/informacion.html">Informacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/sucursal.html">Sucursales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/Tnosotros.html">trabaja con nosotros</a>
+                  </li>
+              
+                  <li id="usernav" >
+
+                </li>
+                <li>
+                  <a href="#" id="close" class="nav-link"><button  type="button" class="btn btn-outline-danger btn-xs" >Cerrar Sesion<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-closed-fill" viewBox="0 0 16 16">
+                    <path d="M12 1a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V2a1 1 0 0 1 1-1h8zm-2 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                  </svg></button></a>
+                </li>
+    
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+        <div class="container">
+     
+
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../img/holaa.gif" width="400" height="500" class="d-block w-100" alt="...">
+                   
+                    
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <iframe class=" d-block w-100"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62584.376932689476!2d-72.25078839307194!3d11.369469387507834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8bf3383a6fed85%3A0xa8d95ad848390232!2sI.P.S.I%20Sol%20wayI.Sol!5e0!3m2!1ses!2sco!4v1612540507560!5m2!1ses!2sco" width="300" height="500" frameborder="2" style="border:2;" allowfullscreen="" aria-hidden="false" tabindex="2"></iframe> 
+                    
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                     
+            </div>
+   
+
+  <script src="../js/nav.js"></script>
+  <div class="container p-5 w-75 bg-primary mt-5 mb-5 rounded shadow bg-white"  >
+    <h4>Ingrese sus datos y nos pondremos en contacto con usted</h4>
+    <div class="row">
+        <div class="col-xl ">
+         
+          <form><br>
+            
+            <div class="form-group">
+             
+              <input type="text" class="form-control" id="txtgenero" placeholder="escriba su nombre" >
+       
+          </div><br>
+
+          <div class="form-group">
+              
+              <input type="number" class="form-control" id="txttelefono" placeholder="escriba su numero de telefono">
+       
+          </div><br>
+
+          
+          <div class="form-group">
+             
+              <input type="text" class="form-control" id="txtemail" placeholder="escriba su email">
+       
+          </div><br>
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="txtdepartamento" placeholder="escriba el departamento">
+     
+        </div><br>
+
+          
+
+         </form>  
+        
+        </div>
+        <div class="col-xl ">
+           
+            <form><br>
+              
+  
+            <div class="form-group">
+                
+                <input type="text" class="form-control" id="txtciudad" placeholder="escriba la ciudad">
+         
+            </div><br>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="txtdireccion" placeholder="escriba su direccion">
+             
+                </div><br>
+    
+                <div class="form-group">
+                    
+    
+                    <input
+                      class="form-control" type="number" name="codigopostal" id="codigopostal" placeholder="Ingrese su codigo postal"/><br>
+             
+                </div>
+                <div class="d-grid" >
+                <button type="button" class="btn btn-outline-success btn-xs" id="btnGuardar">guardar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
+                  <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
+                </svg></button>
+                </div>
+            </form>
+        </div>
+       
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <h2> USUARIOS</h2>
+            <button onclick="ocultarymostrar()" class="btn btn-primary">Ocultar/Mostrar</button>
+
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <table  class="table table-success table-striped" id="tablaUsuario" width="200"  height="200">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>fecha de nacimiento </th>
+                    <th>documento</th>
+                    <th>edad</th>
+                    <th>genero</th>
+                    <th>telefono</th>
+                    <th>email</th>
+                    <th>departamento</th>
+                    <th>ciudad</th>
+                    <th>codigo postal</th>
+                    <th>direccion</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+    
+            </tbody>
+    
+            </table>
+
+    </div>
+</div><br>
+
+<script src="../js/businessLogic.js"></script>
+<script src="../js/uiLogic.js"></script>
+<style>
+    .bg{
+        background-color: #e3f2fd;;
+    }
+    .bg2{
+        background-color: black; 
+    }
+    
+    
+</style>
+<div class="container-fluid  bg" >
+    <div class="container">
+
+    <footer>
+        <div class="row ">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                <h3>Informacion de contacto</h3>
+                <ul class="list-unstyled" >
+                    <li>&#10026 Fabio Mercado</li>
+                    <li>&#10026 Evelyn Cerro</li>
+                    <li> 📞 Tel: 3046749680-3002637218</li>
+                    <li>🔢 Carrera 7 No. 117 – 15 | Fax (571) 6 57 57 14 |</li>
+                    <li> 📧 Faju0316@gmail.com</li>
+                </ul>
+
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                <h3>Redes sociales</h3>
+                <ul class="list-unstyled " >
+                <li ><a href="http://www.facebook.com/AQUI_TU_PAGINA" target="_blank"><img alt="Siguenos en Facebook" src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" width=32 height=32  /></a>Siguenos en facebook </li>
+                <li><a href="http://twitter.com/AQUI_TU_USUARIO" target="_blank"><img src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png" width=32 height=32 alt="Síguenos en Twitter" /></a>Siguenos en twter</li>
+                <li><a href="URL_DE_TU_PERFIL_INSTAGRAM" target="_blank"><img alt="Siguenos en Blogger" src="https://lh5.googleusercontent.com/-vBqtz2iv2BE/UIqE3LQyFMI/AAAAAAAABgA/TJ4W-vIBjsc/s32/instagram32.png" width=32 height=32  /></a>Siguenos en Instagram</li>
+                <li><a href="URL_DE_TU_CANAL_YOUTUBE" target="_blank"><img alt="Siguenos en YouTube" src="https://lh5.googleusercontent.com/-TXzlKCbKzWs/T6mYkDhTXyI/AAAAAAAAA1U/vm95Q2KwrYg/s32/youtube32.png" width=32 height=32  /></a>Siguenos en Youtube</li>
+                </ul>
+            </div>
+           
+    
+        
+        </div>
+       
+
+    </footer>
+    
+ </div>
+ 
+
+</div>
+<div class="container-fluid bg2 " >
+    <p class="text-center " >&copy; Copyright 2021- Fabio Mercado Evelyn Cerro</p>
+    
+
+</div>
+
+    </body>
+    </html>

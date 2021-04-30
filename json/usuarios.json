@@ -1,0 +1,29 @@
+[
+    
+  
+    {
+        "usuario": "Fabio",
+        "contraseña": "febrero",
+        "nombre": "Fabio",
+        "apellido": "Mercado",
+        "correo": "faju@hotmail.com"
+       
+    },
+
+    {
+        "usuario": "Evelyn",
+        "contraseña": "1234",
+        "nombre": "Evelyn",
+        "apellido": "Cerro",
+        "correo": "Ecerro@hotmail.com"
+       
+    },
+    {
+        "usuario": "User",
+        "contraseña": "1234",
+        "nombre": "Usuario",
+        "apellido": "Generico",
+        "correo": "generic@hotmail.com",
+        "rol": "visitante"
+    }
+]
